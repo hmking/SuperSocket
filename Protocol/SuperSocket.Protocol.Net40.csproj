@@ -42,11 +42,14 @@
     <Compile Include="FilterState.cs" />
     <Compile Include="FixedHeaderReceiveFilter.cs" />
     <Compile Include="FixedSizeReceiveFilter.cs" />
+    <Compile Include="IPackageHandler.cs" />
     <Compile Include="IPackageInfo.cs" />
     <Compile Include="IPackageResolver.cs" />
+    <Compile Include="IReceivedDataResolver.cs" />
     <Compile Include="IReceiveFilter.cs" />
     <Compile Include="IStringPackageParser.cs" />
     <Compile Include="ReceivedData.cs" />
+    <Compile Include="ReceivedDataResolver.cs" />
     <Compile Include="SearchMarkState.cs" />
     <Compile Include="StateFullSearch.cs" />
     <Compile Include="StringPackageInfo.cs" />
